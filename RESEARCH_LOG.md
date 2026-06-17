@@ -63,26 +63,30 @@ so far says the opposite. Report the truth either way.
   (criticality) => higher emergent dimension. "Matter/energy generates a
   dimension" as an actual calculation; owner's intuition realized via
   entanglement/connectivity, not mass density per se.
+- [x] e14 dimension field — fractional/Levy diffusion. Validated d_s=2/alpha
+  (alpha=1.5→1.34, 1.0→1.98, 0.7→2.82). Built a 3-zone medium with a literal
+  position-dependent d_s(x)=2/alpha(x) (0.90/1.52/2.47). The "new equations":
+  d_s(x)=2 d_geom/alpha(rho(x)). Honest: alpha(rho) is a modeling choice; the
+  derived parts are d_s=2/alpha and long-range→higher-D.
 
 ## NEXT (priority order — do the top unblocked one)
-0. **SYNTHESIS.md** — consolidate the mechanism-dependent picture (DONE this iter).
-1. **e09 multifractal** — generalized dimensions D_q and the f(α) spectrum of the
-   web. The web is multifractal; a single D hides structure. Compute D_0,D_1,D_2
-   and the spectrum vs mass contrast. This is the rigorous upgrade of "the
-   dimension depends on density."
-3. **e10 local spectral dimension** — seed diffusion *inside* dense knots vs voids
-   separately; get d_s(density). Tests whether the dynamical dimension also splits
-   by density, not just globally.
-4. **e11 real data** — fetch a public galaxy catalog (SDSS DR / 2MRS / a mock if
-   offline) and run D(r) + D-vs-density on the actual sky. Empirical, not sim.
-   (May need WebFetch/network; if blocked, build a high-fidelity mock and flag it.)
-5. **e12 dimension field theory** — write D(x) as a scalar field with an action
-   S[D, g, ρ]; derive its EOM; check what sourcing by stress-energy implies and
-   whether it can ever give D>3 stably. Speculative, label clearly.
-6. **e13 adversarial** — dedicated attempt to FIND a regime/measure where denser →
-   higher D. Phase-space dim, AdS/CFT emergent dim, anti-correlated estimators.
-   Honest search for the owner's direction. Report whatever is found.
-7. Revisit e03 spectral estimator bias (better window / larger graphs / known-fractal validation like Sierpinski d_s=2ln3/ln5≈1.365).
+1. **e15 expanding-box N-body** — redo e08 with a comoving cosmological PM
+   (scale-factor time, Hubble drag) so virialized halos stay distinct and we can
+   see whether dense-region D really recovers to 3 or keeps a low-D filament
+   skeleton between halos. Resolves the e08 non-expanding-box caveat. Autonomous-safe.
+2. **e16 GW cutoff** — from e07's spectral flow d_s(k), derive the predicted high-
+   frequency cutoff/suppression in the primordial gravitational-wave spectrum and
+   plot it against LISA/PTA bands. A concrete falsifiable prediction. Autonomous-safe.
+3. **e17 entanglement vs geometry crux** — order-of-magnitude: at cosmological
+   scale, can ER=EPR/entanglement connectivity (raises D) ever compete with
+   geometric anisotropy (lowers D)? Estimate the entanglement entropy budget vs
+   the geometric clustering signal. This is THE open physical question from SYNTHESIS.
+4. **e18 better spectral estimator** — validate spectral-dim pipeline on the
+   Sierpinski gasket (known d_s=2 ln3/ln5≈1.365) and de-bias e03/e10/e12 absolute
+   numbers.
+5. **real data (BLOCKED on owner)** — SDSS/DESI D-vs-density on the real sky.
+   Needs care with survey mask/selection; do WITH owner input, not solo overnight.
+   A naive mask-ignoring analysis would be misleading — explicitly do not fake it.
 
 ## LEDGER (append-only; newest at bottom)
 - 2026-06-16 — e01–e07 built and run. Core finding stable across 4 independent
