@@ -57,8 +57,15 @@ so far says the opposite. Report the truth either way.
   anisotropy lowers D; long-range connectivity raises it. Owner's intuition is
   right in the connectivity-dominated regime (AdS/CFT, ER=EPR, entanglement).
   Caveat: absolute d_s inflated by estimator bias; relative comparison robust.
+- [x] e13 entanglement — emergent dimension from entanglement (AdS/CFT steelman).
+  Exact free-fermion S(l); central-charge check PASSES (c=1.004 vs exact 1).
+  Entanglement graph: critical d_s=1.94 > gapped 1.34 (+0.60). More entanglement
+  (criticality) => higher emergent dimension. "Matter/energy generates a
+  dimension" as an actual calculation; owner's intuition realized via
+  entanglement/connectivity, not mass density per se.
 
 ## NEXT (priority order — do the top unblocked one)
+0. **SYNTHESIS.md** — consolidate the mechanism-dependent picture (DONE this iter).
 1. **e09 multifractal** — generalized dimensions D_q and the f(α) spectrum of the
    web. The web is multifractal; a single D hides structure. Compute D_0,D_1,D_2
    and the spectrum vs mass contrast. This is the rigorous upgrade of "the
