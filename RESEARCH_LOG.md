@@ -47,6 +47,9 @@ so far says the opposite. Report the truth either way.
   d_s(dense)=2.57 vs d_s(void)=3.01, Δ=-0.44. DYNAMICAL dimension also lower in
   dense regions (at filament stage). Void lands exactly on 3 (clean). Independent
   corroboration of the geometric result.
+- [x] e11 robustness — swept power-spectrum slope n=-1.5..-3.0. Pearson r stays
+  -0.29..-0.34 (all "dense=lower-D"), MF width 0.40..1.41, D_2 2.71..2.91. Sign
+  invariant across morphologies; magnitude tracks clustering. Not a tuning artifact.
 
 ## NEXT (priority order — do the top unblocked one)
 1. **e09 multifractal** — generalized dimensions D_q and the f(α) spectrum of the
