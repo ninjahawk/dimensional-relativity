@@ -31,13 +31,15 @@ so far says the opposite. Report the truth either way.
 - [x] e05 holographic — compactness ζ=2GM/Rc². threshold ζ=1 = horizon. universe exact ζ=1; clusters ~1e-4.
 - [x] e06 mass contrast — dimensional spread grows with contrast up to ~10× (dD 0.16→1.13), then Zel'dovich breaks.
 - [x] e07 dimension flow — spectral d 2→4 from singularity to today. evolving-dimensions hypothesis, labeled.
+- [x] e08 N-body PM gravity — real self-gravity (CIC+FFT+leapfrog). KEY HONEST RESULT:
+  dense-region geometric D is NON-MONOTONIC in contrast. Strongest low-D at the
+  filament/sheet stage (contrast ~13x: densest 0.1% D~2.0, r=-0.52), then washes
+  back to ~3 as halos VIRIALIZE into locally-3D blobs. Geometric dim tracks
+  MORPHOLOGY (filament1/sheet2/halo3), not density magnitude. This corrected my
+  earlier guess that D just keeps falling. (Caveat: non-expanding box.)
 
 ## NEXT (priority order — do the top unblocked one)
-1. **e08 N-body PM gravity** — replace Zel'dovich with a real particle-mesh solver
-   (FFT Poisson + leapfrog) so we can push mass contrast into the deeply nonlinear
-   regime the owner actually asked about ("ridiculous amounts more mass"). Measure
-   D vs density at contrasts 100×–10000×. Does dense-region D keep falling toward 1?
-2. **e09 multifractal** — generalized dimensions D_q and the f(α) spectrum of the
+1. **e09 multifractal** — generalized dimensions D_q and the f(α) spectrum of the
    web. The web is multifractal; a single D hides structure. Compute D_0,D_1,D_2
    and the spectrum vs mass contrast. This is the rigorous upgrade of "the
    dimension depends on density."
@@ -62,6 +64,12 @@ so far says the opposite. Report the truth either way.
   the horizon (ζ=1), reached only by black holes and the whole universe. Repo
   initialized and pushed. README written in Karpathy voice. Owner away overnight;
   autonomous iteration begins.
+- 2026-06-16 — e08 N-body run. SURPRISE that corrected a prior claim: dense-region
+  geometric dimension is non-monotonic in mass contrast — low (~2) at the filament
+  stage, back to ~3 once halos virialize. Lesson: the *geometric* dimension tracks
+  morphology, so it is NOT the clean "dense→2D" carrier; that role belongs to the
+  *holographic* dof-count (e05). Two distinct notions of dimension behaving
+  differently is itself a real result. Committed honestly.
 
 ## STANDING CONVENTIONS
 - effective dimension default estimator: local kNN slope, k=12..120, periodic box.
