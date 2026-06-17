@@ -81,12 +81,16 @@ so far says the opposite. Report the truth either way.
   reduction → LISA (mHz); QCD → PTA (nHz); both testable now. A smooth spectrum
   through f0 kills it. Caveats: T*↔"d→3" model-dependent; assumes a detectable
   primordial background exists.
+- [x] e17 crux — entanglement vs geometry, validated estimate. Free-fermion I(r)
+  validated to r^-2.07 (known -2.0). Entanglement link fraction drops below the
+  e12 dimension-raising threshold (~0.1) within ~11 sites; as 1/r^2 it's ~1e-120
+  at cosmological separations. So geometry (order-1, measured) wins for ordinary
+  matter by ~100+ orders of magnitude; the connectivity/up-mechanism only competes
+  at HOLOGRAPHIC SATURATION (horizons, black holes, Planck-era) = the e05/e07
+  regime. Reconciles everything. Flagged as a 1D-toy scaling argument, big
+  uncertainties (ER=EPR conjectural; saturation regime needs full QG).
 
 ## NEXT (priority order — do the top unblocked one)
-1. **e17 entanglement vs geometry crux** — order-of-magnitude: at cosmological
-   scale, can ER=EPR/entanglement connectivity (raises D) ever compete with
-   geometric anisotropy (lowers D)? Estimate the entanglement entropy budget vs
-   the geometric clustering signal. This is THE open physical question from SYNTHESIS.
 4. **e18 better spectral estimator** — validate spectral-dim pipeline on the
    Sierpinski gasket (known d_s=2 ln3/ln5≈1.365) and de-bias e03/e10/e12 absolute
    numbers.
