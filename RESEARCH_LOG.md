@@ -37,6 +37,16 @@ so far says the opposite. Report the truth either way.
   back to ~3 as halos VIRIALIZE into locally-3D blobs. Geometric dim tracks
   MORPHOLOGY (filament1/sheet2/halo3), not density magnitude. This corrected my
   earlier guess that D just keeps falling. (Caveat: non-expanding box.)
+- [x] e09 multifractal — sandbox-estimator generalized dimensions D_q (box-counting
+  failed its own uniform validation; sandbox passes after raising inner radius).
+  D_q falls with q: dense (q=+6) D~2.1, sparse (q=-6) D~3.2-4, D_2 2.92→2.56 as
+  clustering grows. Multifractal width grows from 0.47 (mild) to 2.0 (strong).
+  Rigorous single-object confirmation dimension depends on density. Caveat:
+  negative-q (sparse) noisy; robust quantities are D_0/D_1/D_2 + the trend.
+- [x] e10 local spectral — diffusion (heat-kernel diagonal) seeded by environment.
+  d_s(dense)=2.57 vs d_s(void)=3.01, Δ=-0.44. DYNAMICAL dimension also lower in
+  dense regions (at filament stage). Void lands exactly on 3 (clean). Independent
+  corroboration of the geometric result.
 
 ## NEXT (priority order — do the top unblocked one)
 1. **e09 multifractal** — generalized dimensions D_q and the f(α) spectrum of the
@@ -64,6 +74,16 @@ so far says the opposite. Report the truth either way.
   the horizon (ζ=1), reached only by black holes and the whole universe. Repo
   initialized and pushed. README written in Karpathy voice. Owner away overnight;
   autonomous iteration begins.
+- 2026-06-16 — e09 multifractal + e10 local spectral. Two independent methods both
+  confirm dimension depends on density at the web/filament stage: D_q spectrum
+  width grows with clustering (geometric), and diffusion d_s splits 2.57(dense)
+  vs 3.01(void) (dynamical). Caught and fixed a box-counting estimator artifact
+  via uniform validation (switched to sandbox method). Honest-estimator hygiene
+  is paying off. Reconciling with e08: at the filament stage all measures say
+  dense=lower-D; the e08 "returns to 3" is specifically the deeply-VIRIALIZED
+  halo regime. So the full picture: dense filaments/sheets are low-D; once they
+  collapse to virialized halos the GEOMETRIC dim recovers to 3 while holographic
+  dof-count (e05) stays the dense=2D carrier. Two notions, different behavior.
 - 2026-06-16 — e08 N-body run. SURPRISE that corrected a prior claim: dense-region
   geometric dimension is non-monotonic in mass contrast — low (~2) at the filament
   stage, back to ~3 once halos virialize. Lesson: the *geometric* dimension tracks
