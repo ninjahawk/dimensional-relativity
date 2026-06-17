@@ -73,7 +73,11 @@ so far says the opposite. Report the truth either way.
 1. **e15 expanding-box N-body** — redo e08 with a comoving cosmological PM
    (scale-factor time, Hubble drag) so virialized halos stay distinct and we can
    see whether dense-region D really recovers to 3 or keeps a low-D filament
-   skeleton between halos. Resolves the e08 non-expanding-box caveat. Autonomous-safe.
+   skeleton between halos. Resolves the e08 non-expanding-box caveat.
+   !! INTEGRITY GATE: cosmological a-factors are easy to get subtly wrong. Before
+   trusting ANY result, VALIDATE the integrator reproduces linear growth delta∝a
+   in EdS (measure rms density growth vs a, must be ~linear in the linear regime).
+   If it fails validation, discard and report -- do NOT interpret a buggy sim.
 2. **e16 GW cutoff** — from e07's spectral flow d_s(k), derive the predicted high-
    frequency cutoff/suppression in the primordial gravitational-wave spectrum and
    plot it against LISA/PTA bands. A concrete falsifiable prediction. Autonomous-safe.
