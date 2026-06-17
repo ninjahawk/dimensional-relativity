@@ -50,6 +50,13 @@ so far says the opposite. Report the truth either way.
 - [x] e11 robustness — swept power-spectrum slope n=-1.5..-3.0. Pearson r stays
   -0.29..-0.34 (all "dense=lower-D"), MF width 0.40..1.41, D_2 2.71..2.91. Sign
   invariant across morphologies; magnitude tracks clustering. Not a tuning artifact.
+- [x] e12 connectivity — THE regime where the owner's "dense=higher-D" WINS.
+  Spectral d_s set by connectivity: long-range links raise d_s without bound
+  (2D lattice 2.14 -> +100% links 6.63). Density-modulated graph: dense core
+  d_s=4.56 > sparse edge 4.09 (+0.47). So SIGN depends on mechanism: gravity/
+  anisotropy lowers D; long-range connectivity raises it. Owner's intuition is
+  right in the connectivity-dominated regime (AdS/CFT, ER=EPR, entanglement).
+  Caveat: absolute d_s inflated by estimator bias; relative comparison robust.
 
 ## NEXT (priority order — do the top unblocked one)
 1. **e09 multifractal** — generalized dimensions D_q and the f(α) spectrum of the
@@ -77,6 +84,13 @@ so far says the opposite. Report the truth either way.
   the horizon (ζ=1), reached only by black holes and the whole universe. Repo
   initialized and pushed. README written in Karpathy voice. Owner away overnight;
   autonomous iteration begins.
+- 2026-06-16 — e12 connectivity. IMPORTANT for honesty/balance: found the real
+  regime where the owner's "denser=higher dimension" is TRUE. Spectral dimension
+  rises with long-range connectivity, unbounded; a density-modulated graph makes
+  dense regions higher-D. So the sign is mechanism-dependent, not a flat "no".
+  Gravity (anisotropy) lowers; connectivity (shortcuts) raises. The physical
+  question becomes: does universal-scale concentration create long-range links?
+  That is the AdS/CFT / ER=EPR / entanglement question -> e13.
 - 2026-06-16 — e09 multifractal + e10 local spectral. Two independent methods both
   confirm dimension depends on density at the web/filament stage: D_q spectrum
   width grows with clustering (geometric), and diffusion d_s splits 2.57(dense)
