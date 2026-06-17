@@ -89,14 +89,21 @@ so far says the opposite. Report the truth either way.
   at HOLOGRAPHIC SATURATION (horizons, black holes, Planck-era) = the e05/e07
   regime. Reconciles everything. Flagged as a 1D-toy scaling argument, big
   uncertainties (ER=EPR conjectural; saturation regime needs full QG).
+- [x] e18 estimator validation — spectral pipeline anchored on the Sierpinski
+  gasket: measured d_s=1.43 vs exact 1.365 (5%), 2D→2.10, 3D→3.34. Bias mild and
+  ~multiplicative (measured≈1.087×true). Relative results (e10/e12) unaffected;
+  absolute numbers corrected (e.g. e10 dense 2.57→2.36, void 3.01→2.77). The
+  pipeline reliably recovers a NON-INTEGER spectral dimension.
 
 ## NEXT (priority order — do the top unblocked one)
-4. **e18 better spectral estimator** — validate spectral-dim pipeline on the
-   Sierpinski gasket (known d_s=2 ln3/ln5≈1.365) and de-bias e03/e10/e12 absolute
-   numbers.
-5. **real data (BLOCKED on owner)** — SDSS/DESI D-vs-density on the real sky.
+1. **PAPER.md** — consolidate e01–e18 into a clean paper-style writeup (abstract,
+   methods, results, the mechanism-dependent conclusion, falsifiable predictions,
+   limitations). This is the capstone; do this rather than spin up filler experiments.
+2. **real data (BLOCKED on owner)** — SDSS/DESI D-vs-density on the real sky.
    Needs care with survey mask/selection; do WITH owner input, not solo overnight.
    A naive mask-ignoring analysis would be misleading — explicitly do not fake it.
+   (If PAPER.md is done and owner still away: STOP generating experiments; the
+   honest move is to wait, not manufacture filler. Schedule a long idle wakeup.)
 
 ## LEDGER (append-only; newest at bottom)
 - 2026-06-16 — e01–e07 built and run. Core finding stable across 4 independent
