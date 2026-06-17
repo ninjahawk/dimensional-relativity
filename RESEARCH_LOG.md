@@ -76,12 +76,14 @@ so far says the opposite. Report the truth either way.
   low-D filament skeleton; only mild recovery (2.32→2.68) at late times from
   partial halo virialization. CORRECTS e08's "dense bounces back to 3" — that was
   largely a non-expanding-box runaway-collapse artifact.
+- [x] e16 GW cutoff — turned e07 into a falsifiable prediction. GW background cut
+  off above f0(T*)=1.65e-7 Hz·(T*/GeV) since GWs need 3+1 D. Electroweak/TeV
+  reduction → LISA (mHz); QCD → PTA (nHz); both testable now. A smooth spectrum
+  through f0 kills it. Caveats: T*↔"d→3" model-dependent; assumes a detectable
+  primordial background exists.
 
 ## NEXT (priority order — do the top unblocked one)
-1. **e16 GW cutoff** — from e07's spectral flow d_s(k), derive the predicted high-
-   frequency cutoff/suppression in the primordial gravitational-wave spectrum and
-   plot it against LISA/PTA bands. A concrete falsifiable prediction. Autonomous-safe.
-3. **e17 entanglement vs geometry crux** — order-of-magnitude: at cosmological
+1. **e17 entanglement vs geometry crux** — order-of-magnitude: at cosmological
    scale, can ER=EPR/entanglement connectivity (raises D) ever compete with
    geometric anisotropy (lowers D)? Estimate the entanglement entropy budget vs
    the geometric clustering signal. This is THE open physical question from SYNTHESIS.
