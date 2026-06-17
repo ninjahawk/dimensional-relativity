@@ -68,17 +68,17 @@ so far says the opposite. Report the truth either way.
   position-dependent d_s(x)=2/alpha(x) (0.90/1.52/2.47). The "new equations":
   d_s(x)=2 d_geom/alpha(rho(x)). Honest: alpha(rho) is a modeling choice; the
   derived parts are d_s=2/alpha and long-range→higher-D.
+- [x] e15 expanding N-body — comoving EdS particle-mesh. INTEGRITY GATE PASSED:
+  mode growth tracks linear theory delta∝a to 2-3% over a=0.02→2 (a-factors
+  correct). Fair test (proper expansion) gives a CLEANER, STRONGER result than
+  e08: dense regions stay low-D (D~2.3-2.7) through all of cosmic evolution,
+  r(density,D) = -0.46..-0.64 (stronger than e02's -0.31). Web keeps a PERSISTENT
+  low-D filament skeleton; only mild recovery (2.32→2.68) at late times from
+  partial halo virialization. CORRECTS e08's "dense bounces back to 3" — that was
+  largely a non-expanding-box runaway-collapse artifact.
 
 ## NEXT (priority order — do the top unblocked one)
-1. **e15 expanding-box N-body** — redo e08 with a comoving cosmological PM
-   (scale-factor time, Hubble drag) so virialized halos stay distinct and we can
-   see whether dense-region D really recovers to 3 or keeps a low-D filament
-   skeleton between halos. Resolves the e08 non-expanding-box caveat.
-   !! INTEGRITY GATE: cosmological a-factors are easy to get subtly wrong. Before
-   trusting ANY result, VALIDATE the integrator reproduces linear growth delta∝a
-   in EdS (measure rms density growth vs a, must be ~linear in the linear regime).
-   If it fails validation, discard and report -- do NOT interpret a buggy sim.
-2. **e16 GW cutoff** — from e07's spectral flow d_s(k), derive the predicted high-
+1. **e16 GW cutoff** — from e07's spectral flow d_s(k), derive the predicted high-
    frequency cutoff/suppression in the primordial gravitational-wave spectrum and
    plot it against LISA/PTA bands. A concrete falsifiable prediction. Autonomous-safe.
 3. **e17 entanglement vs geometry crux** — order-of-magnitude: at cosmological
